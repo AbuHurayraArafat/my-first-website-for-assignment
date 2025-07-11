@@ -117,7 +117,7 @@ body, html {
 .action-right img {
   max-width: 100%;
   border-radius: 20px;
-  margin-right: 120px;
+  margin-right: 160px;
 }
 
 /* Productive Users Section */
@@ -236,6 +236,165 @@ body, html {
   font-size: 0.8rem;
   color: #888;
 }
+
+/* Body setup */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #edf4ff;
+  line-height: 1.6;
+}
+
+/* Section */
+.conf-section {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.conf-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px 30px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.conf-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* Subtitle */
+.conf-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+/* Button */
+.conf-button {
+  display: inline-block;
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 32px;
+  transition: background 0.3s ease;
+}
+
+.conf-button:hover {
+  background-color: #2eafa0;
+  transform: translateY(-3px);
+}
+
+/* Image */
+.conf-image-wrapper {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.conf-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Get In Touch Section */
+.get-in-touch-section {
+  background-color: #edf4ff;
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* Left Side */
+.left {
+ 
+  display: flex;
+  margin-top: 80px;
+  margin-right: 40px;
+}
+
+.left h2 {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111;
+}
+
+/* Right Side */
+.right {
+  flex: 1 1 50%;
+  margin-right: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+input,
+textarea {
+  padding: 12px 16px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #4f46e5;
+}
+
+/* Submit Button */
+button {
+  padding: 14px 24px;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #2eafa0;
+  transform: translateY(-3px);
+}
+
 
 
 
