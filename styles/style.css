@@ -71,7 +71,7 @@ body, html {
 }
 
 
-/* 3. Action Section */
+/*  Action Section */
 .action-section {
   background-color: #edf4ff;
   display: flex;
@@ -120,7 +120,7 @@ body, html {
   margin-right: 120px;
 }
 
-/* 4. Productive Users Section */
+/* Productive Users Section */
 .productive-section {
   background-color: #edf4ff;
   text-align: center;
@@ -159,3 +159,83 @@ body, html {
   font-size: 14px;
   color: #555;
 }
+
+/* feeddback section----- */
+.feedback-section {
+  background-color: #edf4ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feedback-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.feedback-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feedback-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.feedback-card:hover {
+  transform: translateY(-5px);
+}
+
+.star-img {
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.card-subtitle {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-info {
+  text-align: left;
+}
+
+.reviewer-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.reviewer-date {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+
+
